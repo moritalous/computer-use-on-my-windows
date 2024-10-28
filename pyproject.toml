@@ -1,0 +1,11 @@
+[project]
+name = "computer-use"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic[bedrock]>=0.37.1",
+    "pyautogui>=0.9.54",
+    "streamlit>=1.39.0",
+]
